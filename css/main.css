@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'gagalinregular';
+  src: url("../fonts/gagalin-regular-webfont.woff2") format("woff2"), url("../fonts/gagalin-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lifehackmedium';
+  src: url("../fonts/lifehack_medium-webfont.woff2") format("woff2"), url("../fonts/lifehack_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ubuntubold';
+  src: url("../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("../fonts/ubuntu-b-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ubuntulight';
+  src: url("../fonts/ubuntu-light-webfont.woff2") format("woff2"), url("../fonts/ubuntu-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ubuntumedium';
+  src: url("../fonts/ubuntu-medium-webfont.woff2") format("woff2"), url("../fonts/ubuntu-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ubunturegular';
+  src: url("../fonts/ubuntu-regular-webfont.woff2") format("woff2"), url("../fonts/ubuntu-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+  
+body,
+html,
+.wrapper {
+    height: 100%;
+    width: 100%; 
+}
+  
+.wrapper {
+    font-family: "ubuntulight", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff; 
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  min-height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff; 
+}  
+
+  ul {
+    list-style-type: none; }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block; }
+  
+.hidden {
+    visibility: hidden; }
+
+
+
+
+.first {
+  background-image: url("../image/first-texture.png"), url("../image/first-bg.jpg");
+}
+
+
+.first__inner {
+  width: 940px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; 
+}
+
+.first__header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 12px 10px 0 0; }
+
+.first__logo{
+    background-image: url("../image/logo.png");
+    width: 92px;
+    height: 69px;
+    background-position: center;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+.first-menu {
+    margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-content: stretch;
+  
+}
+  
+  
+.first-menu__items {
+    vertical-align: middle;
+    display: inline-block; }
+    .first-menu__items:before {
+      content: "";
+      display: inline-block;
+      margin: 0 11px 0 12px;
+      background-color: #fff;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      vertical-align: middle; }
+    .first-menu__items:first-child:before {
+      display: none; 
+}
+  
+
+
+
+
+
+.first-menu__list {
+    display: inline-block;
+    font-family: "ubuntumedium", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase; }
+  }
+  
+ .first-box{
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+ } 
+
+ .first-box__image {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 417px;
+  height: 424px;
+  background-image: url("../img/content/first-burger.png");
+  background-position: center;
+  background-repeat: no-repeat; }
