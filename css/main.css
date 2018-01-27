@@ -173,7 +173,8 @@ ul {
   vertical-align: middle;
   -webkit-transition: .5s;
   -o-transition: .5s;
-  transition: .5s; }
+  transition: .5s;
+  color: #fff; }
   .nav__link:hover {
     text-decoration: underline; }
 
@@ -257,11 +258,26 @@ ul {
   flex-direction: row;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px; }
+
+.second__item {
+  width: 285px;
+  text-align: center; }
+
+.second__img {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+.second__item-title {
+  font-family: 'lifehack';
+  font-size: 24px; }
 
 .section__title-second {
   color: #2f3234; }
